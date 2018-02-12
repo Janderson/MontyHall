@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GameEngine/GameEngine/obj/Debug
+/WindowApp/.vs/MontyHallProblem/v15/Server/sqlite3
+/WindowApp/WindowApp/bin/Debug
+/WindowApp/WindowApp/obj/Debug
+/.vs/MontyHall/v15/Server/sqlite3
