@@ -5,10 +5,10 @@ Was very hard to me believe it, even If I know the math behind, until i programe
 
 ## Download
 
-[Download v1.0!](https://github.com/Janderson/MontyHall/releases/download/1.0/MontyHallSimulator.zip)
+[Download v1.0 (Exe)](https://github.com/Janderson/MontyHall/releases/download/1.0/MontyHallSimulator.zip)
 
 ## ScreenShot
-![GitHub Logo](/ScreenShot.png)
+![GitHub Logo](/Screenshot.png)
 
 Icon Source:
 http://www.iconarchive.com/show/square-animal-icons-by-martin-berube/Goat-icon.html
