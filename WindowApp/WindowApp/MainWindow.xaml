@@ -8,17 +8,22 @@
         Title="Monty Hall Simulator" ResizeMode="CanResize" Height="768" Width="787.185" FontSize="20">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="25" />
+            <RowDefinition Height="70" />
             <RowDefinition Height="3*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="70" />
+                <ColumnDefinition Width="5*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
+            <Canvas>
+                <Image Grid.Column="0" Source="Images/goat64.png" Height="64" Margin="10 5 5 5" />
+            </Canvas>
+            <Label Grid.Column="1" Content="Monty Hall Simulator" FontWeight="Bold" FontFamily="Calibri" VerticalAlignment="Center"/>
         </Grid>
+        
         <DataGrid  Grid.Row="1" x:Name="DataGridResult"  ItemsSource="{Binding}" />
         
         <Grid Grid.Row="2">
@@ -55,7 +60,7 @@
                 <Slider x:Name="SliderNumberSimulations" Grid.Column="0"  Margin="10 10 10 0" SmallChange="50" Minimum="100" Maximum="150000" LargeChange="1000" />
                 <Label x:Name="Simulation" Grid.Column="1" Content="{Binding ElementName=SliderNumberSimulations, Path=Value}" ContentStringFormat="{}Numbers of Simulations: {0:#}"/>
             </Grid>
-            <Button Grid.Row="3" Click="Button1_RunGame" Height="47" Content="Run" />
+            <Button Grid.Row="3" Click="Button1_RunGame"  Margin="15 5 15 5" Content="Run" />
         </Grid>
     </Grid>
 

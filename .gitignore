@@ -7,3 +7,6 @@
 /WindowApp/WindowApp/bin/Debug
 /WindowApp/WindowApp/obj/Debug
 /.vs/MontyHall/v15/Server/sqlite3
+/GameEngine/GameEngine/obj/Release
+/WindowApp/WindowApp/bin/Release
+/WindowApp/WindowApp/obj/Release
